@@ -1,8 +1,23 @@
+.body {
+  background-color: #e5e5e5;
+  letter-spacing: 0.03em;
+  font-size: 14px;
+}
 .list {
   list-style: none;
 }
 .link {
   text-decoration: none;
+}
+.link_color {
+  color: #2196f3;
+}
+.contact_font {
+  color: #757575;
+}
+.contact_font:hover,
+.contact_font:focus {
+  color: #2196f3;
 }
 .logo {
   font-family: Raleway;
@@ -11,12 +26,20 @@
   font-size: 26px;
   line-height: 31px;
 }
+:root {
+  --logo-color: #2196f3;
+}
+
 .logo_color {
+  color: var(--logo-color);
+}
+.nav_font:hover,
+.nav_font:focus {
   color: #2196f3;
 }
 .nav_font {
   font-family: Roboto;
-  font-style: normal;
+
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
@@ -26,14 +49,14 @@
 }
 .hero_text {
   font-family: Roboto;
-  font-style: normal;
+
   font-weight: 900;
   font-size: 44px;
   line-height: 60px;
   /* or 136% */
 
   text-align: center;
-  letter-spacing: 0.06em;
+
   text-transform: uppercase;
 
   color: #ffffff;
@@ -46,7 +69,7 @@
 .hero_button_color {
   color: #ffffff;
   font-family: Roboto;
-  font-style: normal;
+
   font-weight: 700;
   font-size: 16px;
   line-height: 30px;
@@ -56,7 +79,7 @@
 }
 .text_big {
   font-family: Roboto;
-  font-style: normal;
+
   font-weight: 700;
   font-size: 14px;
   line-height: 16px;
@@ -67,7 +90,7 @@
 }
 .text_small {
   font-family: Roboto;
-  font-style: normal;
+
   font-weight: 400;
   font-size: 14px;
   line-height: 24px;
@@ -79,7 +102,7 @@
 }
 .what_we_do {
   font-family: Roboto;
-  font-style: normal;
+
   font-weight: bold;
   font-size: 36px;
   line-height: 42px;
@@ -90,7 +113,7 @@
 }
 .our_team {
   font-family: Roboto;
-  font-style: normal;
+
   font-weight: bold;
   font-size: 36px;
   line-height: 42px;
@@ -101,7 +124,7 @@
 }
 .name {
   font-family: Roboto;
-  font-style: normal;
+
   font-weight: 500;
   font-size: 16px;
   line-height: 19px;
@@ -114,7 +137,7 @@
 }
 .position_text {
   font-family: Roboto;
-  font-style: normal;
+
   font-weight: normal;
   font-size: 16px;
   line-height: 19px;
@@ -128,7 +151,7 @@
 }
 .address {
   font-family: Roboto;
-  font-style: normal;
+
   font-weight: normal;
   font-size: 14px;
   line-height: 24px;
@@ -137,4 +160,18 @@
   letter-spacing: 0.03em;
 
   color: #ffffff;
+}
+.selection-btn {
+  cursor: pointer;
+}
+.selection-btn:hover,
+.selection-btn:focus {
+  background-color: #2196f3;
+  color: #e5e5e5;
+}
+.foother_address {
+  font-style: normal;
+}
+.footer_nav {
+  color: #757575;
 }
