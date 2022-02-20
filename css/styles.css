@@ -3,6 +3,12 @@
   letter-spacing: 0.03em;
   font-size: 14px;
 }
+.studio_color_header {
+  color: #000;
+}
+.studio_color_footer {
+  color: #ffffff;
+}
 .list {
   list-style: none;
 }
@@ -32,6 +38,9 @@
 
 .logo_color {
   color: var(--logo-color);
+}
+.nav_font {
+  color: #000;
 }
 .nav_font:hover,
 .nav_font:focus {
@@ -162,7 +171,17 @@
   color: #ffffff;
 }
 .selection-btn {
+  color: var(--title-text-color);
+  background-color: var(--background-section-color);
+  font-family: inherit;
   cursor: pointer;
+  display: inline-block;
+  border: none;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  border-radius: 4px;
 }
 .selection-btn:hover,
 .selection-btn:focus {
