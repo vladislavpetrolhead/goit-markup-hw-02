@@ -1,13 +1,29 @@
-.body {
-  background-color: #e5e5e5;
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --primary-white-color: #ffffff;
+  --primary-black-color: #000000;
+  --background-bg-color: #2f303a;
+  --background-section-color: #f5f4fa;
+  --secondary-accent-color: #188ce8;
+  --secondary-border-color: #eeeeee;
+  --secondary-contact-color: #ffffff60;
+}
+
+body {
+  color: var(--primary-text-color);
+  background-color: var(--primary-white-color);
+  font-family: "Roboto", "Segoe UI", "Open Sans", "Helvetica Neue", sans-serif;
   letter-spacing: 0.03em;
   font-size: 14px;
 }
+
 .studio_color_header {
-  color: #000;
+  color: var(--primary-black-color);
 }
 .studio_color_footer {
-  color: #ffffff;
+  color: var(--primary-white-color);
 }
 .list {
   list-style: none;
@@ -16,35 +32,31 @@
   text-decoration: none;
 }
 .link_color {
-  color: #2196f3;
+  color: var(--secondary-accent-color);
 }
 .contact_font {
-  color: #757575;
+  color: var(--primary-text-color);
 }
 .contact_font:hover,
 .contact_font:focus {
-  color: #2196f3;
+  color: var(--secondary-accent-color);
 }
 .logo {
   font-family: Raleway;
-  font-style: normal;
   font-weight: 700;
   font-size: 26px;
   line-height: 31px;
 }
-:root {
-  --logo-color: #2196f3;
-}
 
 .logo_color {
-  color: var(--logo-color);
+  color: var(--accent-color);
 }
 .nav_font {
-  color: #000;
+  color: var(--primary-black-color);
 }
 .nav_font:hover,
 .nav_font:focus {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 .nav_font {
   font-family: Roboto;
@@ -54,7 +66,7 @@
   line-height: 16px;
 }
 .button_background {
-  background-color: #2f303a;
+  background-color: var(--background-bg-color);
 }
 .hero_text {
   font-family: Roboto;
@@ -62,26 +74,24 @@
   font-weight: 900;
   font-size: 44px;
   line-height: 60px;
-  /* or 136% */
 
   text-align: center;
 
   text-transform: uppercase;
 
-  color: #ffffff;
+  color: var(--primary-white-color);
 }
 .hero_button {
   width: 200px;
   height: 50px;
-  background: #2196f3;
+  background: var(--accent-color);
 }
 .hero_button_color {
-  color: #ffffff;
   font-family: Roboto;
-
   font-weight: 700;
   font-size: 16px;
   line-height: 30px;
+  color: var(--primary-white-color);
 }
 .transperent {
   opacity: 0;
@@ -95,7 +105,7 @@
   letter-spacing: 0.03em;
   text-transform: uppercase;
 
-  color: #212121;
+  color: var(--title-text-color);
 }
 .text_small {
   font-family: Roboto;
@@ -103,11 +113,10 @@
   font-weight: 400;
   font-size: 14px;
   line-height: 24px;
-  /* or 171% */
 
   letter-spacing: 0.03em;
 
-  color: #757575;
+  color: var(--title-text-color);
 }
 .what_we_do {
   font-family: Roboto;
@@ -118,7 +127,7 @@
   text-align: center;
   letter-spacing: 0.03em;
 
-  color: #212121;
+  color: var(--title-text-color);
 }
 .our_team {
   font-family: Roboto;
@@ -129,7 +138,7 @@
   text-align: center;
   letter-spacing: 0.03em;
 
-  color: #212121;
+  color: var(--title-text-color);
 }
 .name {
   font-family: Roboto;
@@ -137,12 +146,11 @@
   font-weight: 500;
   font-size: 16px;
   line-height: 19px;
-  /* identical to box height */
 
   text-align: center;
   letter-spacing: 0.03em;
 
-  color: #212121;
+  color: var(--title-text-color);
 }
 .position_text {
   font-family: Roboto;
@@ -153,10 +161,10 @@
   text-align: center;
   letter-spacing: 0.03em;
 
-  color: #757575;
+  color: var(--title-text-color);
 }
 .footer {
-  background-color: #2f303a;
+  background-color: var(--background-bg-color);
 }
 .address {
   font-family: Roboto;
@@ -164,11 +172,10 @@
   font-weight: normal;
   font-size: 14px;
   line-height: 24px;
-  /* or 171% */
 
   letter-spacing: 0.03em;
 
-  color: #ffffff;
+  color: var(--primary-white-color);
 }
 .selection-btn {
   color: var(--title-text-color);
@@ -185,12 +192,15 @@
 }
 .selection-btn:hover,
 .selection-btn:focus {
-  background-color: #2196f3;
-  color: #e5e5e5;
+  background-color: var(--accent-color);
+  color: var(--secondary-border-color);
 }
 .foother_address {
   font-style: normal;
 }
 .footer_nav {
-  color: #757575;
+  color: var(--primary-text-color);
+}
+a {
+  text-decoration: none;
 }
